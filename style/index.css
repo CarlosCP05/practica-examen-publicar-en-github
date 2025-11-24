@@ -125,13 +125,10 @@
            border-radius: 20px;
        }
 
-       #presentacion h4 {
-           font-size: 20px;
-       }
-
        .contenedor h4 {
            text-align: center;
            margin-bottom: 30px;
+	   font-size: 20px;
        }
 
        #tarjetas {
