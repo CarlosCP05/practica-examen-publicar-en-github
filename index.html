@@ -26,6 +26,7 @@
             </ul>
         </nav>
     </header>
+    <div id="mascota"></div>
     <main>
         <section>
             <div id="cuerpo">
@@ -101,6 +102,16 @@
     <footer>
         <p>© 2025 Comodidad de Ensueño — Todos los derechos reservados.</p>
     </footer>
+<script>
+    const mascota = document.getElementById("mascota");
+
+    // Mascota ASCII
+    mascota.textContent = "(•ᴗ•)";
+
+    document.addEventListener("mousemove", (e) => {
+        mascota.style.transform = `translate(${e.pageX + 10}px, ${e.pageY + 10}px)`;
+    });
+</script>
 </body>
 
 </html>

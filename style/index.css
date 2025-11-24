@@ -248,3 +248,17 @@
            color: white;
            text-align: center;
        }
+       /*  --- Mascota de raton  --- */
+       #mascota {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: fit-content;
+           height: fit-content;
+           pointer-events: none;
+           font-family: monospace;
+           font-size: 18px;
+           white-space: pre;
+           z-index: 9999;
+           transition: transform 0.1s linear;
+       }
